@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Find Course</string>
+    <string-array name="faculty_initials">
+        <item>MBH</item>
+        <item>MA</item>
+        <item>MMS</item>
+        <item>FKP</item>
+    </string-array>
+</resources>
