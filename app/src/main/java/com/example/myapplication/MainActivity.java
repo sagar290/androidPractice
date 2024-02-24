@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         "1. PMIT-6307: Data Mining and Knowledge Discovery\n" +
                         "2. PMIT-6113: Mobile Application Development\n";
             } else if (value.equals("MA")) {
-                value = "MBH: Mehrin Anannya \n" +
+                value = "MA: Mehrin Anannya \n" +
                         "Assistant Professor\n" +
                         "Institute of Information Technology \n" +
                         "Course taking:\n" +
