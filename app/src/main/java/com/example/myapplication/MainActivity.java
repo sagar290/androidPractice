@@ -36,6 +36,25 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(v -> {
             String value = spinner.getSelectedItem().toString();
 
+            if (value.equals("MBH")) {
+                value = "MBH: Md. Biplob Hossain \n" +
+                        "Assistant Professor \n" +
+                        "Department of Information Technology \n" +
+                        "Course taking:\n" +
+                        "1. PMIT-6307: Data Mining and Knowledge Discovery\n" +
+                        "2. PMIT-6113: Mobile Application Development\n";
+            } else if (value.equals("MA")) {
+                value = "MBH: Mehrin Anannya \n" +
+                        "Assistant Professor\n" +
+                        "Institute of Information Technology \n" +
+                        "Course taking:\n" +
+                        "1. PMIT-6217: Wireless Networks\n" +
+                        "2. PMIT-6111: Software Testing & Quality Assurance \n";
+            } else {
+                value = "Not Found";
+            }
+
+
             textView.setText(value);
         });
     }
